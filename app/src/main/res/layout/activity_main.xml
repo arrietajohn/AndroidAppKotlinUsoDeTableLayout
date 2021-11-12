@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="1">
+
+    <TextView
+        android:text="Los elementos precedidos por una V abren un submenú"
+        android:textColor="#ED1212" />
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="No abre un submenú"
+            android:textColor="#1835D5" />
+        <TextView
+            android:text="¡No!"
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="V"/>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Abre un submenú"
+            android:textColor="#FFC107" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Sí, lo hay."
+            android:textColor="#FFEB3B" />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    <TableRow>
+        <TextView
+            android:text="V" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="Abre un submenú"
+            android:textColor="#4CAF50" />
+    </TableRow>
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:layout_span="2"
+            android:padding="3dip"
+            android:text="Este artículo está repartido en dos columnas"
+            android:textColor="#9C27B0" />
+    </TableRow>
+</TableLayout>
